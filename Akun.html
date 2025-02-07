@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akun</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            border: 1px solid #ccc; /* Border untuk kotak */
+            border-radius: 5px; /* Sudut yang membulat */
+            padding: 15px; /* Ruang di dalam kotak */
+            background-color: #f9f9f9; /* Warna latar belakang */
+        }
+        h2 {
+            color: #333;
+            text-align: center; /* Rata tengah untuk judul */
+        }
+        .social-media {
+            display: flex;
+            align-items: center;
+        }
+        .social-icon {
+            margin-right: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #ff8000;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .marquee {
+            display: inline-block; /* Agar marquee tidak memakan lebar penuh */
+            white-space: nowrap; /* Mencegah pembungkus teks */
+            overflow: hidden; /* Sembunyikan teks yang melampaui batas */
+            box-sizing: border-box; /* Menghitung padding dan border dalam lebar */
+        }
+        .marquee span {
+            display: inline-block;
+            animation: marquee 10s linear infinite; /* Animasi marquee */
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h2>WhatsApp</h2>
+        <div class="social-media">
+            <!-- Link Whatsapp -->
+            <a href="https://wa.me/qr/73YY7L34BCE3P1" class="whatsapp-link">
+                <img src="Wa logo.png" alt="WhatsApp" class="social-icon" style="width: 75px; height: auto;">
+                <div class="marquee"><span>Add my WhatsApp 0823-3794-3894</span></div>
+            </a>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Instagram</h2>
+        <div class="social-media">
+            <!-- Link Instagram -->
+            <a href="https://www.instagram.com/zdhany_mnk?utm_source=qr&igsh=MTJvZWhjd2JkNGFyaQ==" class="instagram-link">
+                <img src="ig Logo.png" alt="Instagram" class="social-icon" style="width: 75px; height: auto;">
+                <div class="marquee"><span>Follow us my akun @zdahany_mnk</span></div>
+            </a>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Tik-Tok</h2>
+        <div class="social-media">
+            <!-- Link Tik-tok -->
+            <a href="https://www.tiktok.com/@silauraja76?_t=8rH5ce6vOKu&_r=1" class="tiktok-link">
+                <img src="tiktok logo.png" alt="TikTok" class="social-icon" style="width: 75px; height: auto;">
+                <div class="marquee"><span>Follow my Akun @silauraja_76</span></div>
+            </a>
+        </div>
+    </section>
+    
+    <section>
+        <h2>E-mail</h2>
+        <div class="social-media">
+            <!-- Link Email -->
+            <a href="mailto:20janesdaniputramanik@gmail.com" class="email-link">
+                <img src="e-mail logo.png" alt="Email" class="social-icon" style="width: 75px; height: auto;">
+                <div class="marquee"><span>20janesdaniputramanik@gmail.com</span></div>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
